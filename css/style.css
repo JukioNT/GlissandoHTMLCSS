@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+:root{
+    --primary: #181818;
+    --header: #202020;
+}
+header{
+    background-color: var(--header);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    transform: translateX(13%);
+    width: 70%;
+}
+.pesquisa input, .pesquisa button{
+    font-size: 170%;
+    border: 0;
+    padding: 0;
+}
+.pesquisa input{
+    background-color: #121212;
+    color: whitesmoke;
+    height: 150%;
+}
+.pesquisa button{
+    cursor: pointer;
+    background: none;
+    background-color: #313131;
+    color: whitesmoke;
+}
+.login{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.login ul li{
+    display: inline;
+}
