@@ -27,7 +27,7 @@ header{
 .pesquisa{
     display: flex;
     align-items: center;
-    transform: translateX(13%);
+    transform: translateX(25%);
     width: 70%;
 }
 .pesquisa input, .pesquisa button{
@@ -94,6 +94,34 @@ body div{
 .login_logo{
     width:100%
 }
-.label{
-    width: 93%;
+.label label{
+    font-size: 30px;
+}
+.login_login{
+    margin-top: 10%;
+}
+.conta{
+    color: #38B7F1;
+}
+.login_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_table form{
+    border: 2px solid #38B7F1;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.login_table div input{
+    margin: 10px;
+    border: 1px solid #38B7F1;
+    border-radius: 1rem;
+    background-color: #202020;
+    width: 50%;
+}
+.input{
+    font-size: large;
+    color: whitesmoke;
 }
