@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: Roboto;
+    font-family: 'Alegreya Sans';
     font-weight: 400;
 }
 :root{
@@ -52,4 +52,38 @@ header{
 }
 .login ul li{
     display: inline;
+}
+body{
+    background-color: var(--primary);
+    color: whitesmoke;
+    width: 100%;
+}
+body div{
+    text-align: center;
+}
+.principais h1{
+    margin: 2%
+}
+.assuntos ul li{
+    display: inline;
+    margin: 3.22%;
+}
+.images ul li{
+    display: inline; 
+}
+.images ul li img{
+    width: 10%;
+    cursor: pointer;
+}
+.glissando{
+    margin-top: 2%;
+}
+.learnmore{
+    margin-top: 2%;
+}
+.learnmore img{
+    width: 9%;
+}
+.images ul li:hover{
+    filter: grayscale(80%);
 }
