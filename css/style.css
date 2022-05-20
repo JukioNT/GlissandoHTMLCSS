@@ -11,6 +11,7 @@
     --primary: #181818;
     --header: #202020;
 }
+/*Página inicial*/
 header{
     background-color: var(--header);
     display: flex;
@@ -86,4 +87,13 @@ body div{
 }
 .images ul li:hover{
     filter: grayscale(80%);
+}
+
+/*Tela de LogIn*/
+
+.login_logo{
+    width:100%
+}
+.label{
+    width: 93%;
 }
