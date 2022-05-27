@@ -131,8 +131,14 @@ body{
     flex-direction: column;
 }
 .left-login h1{
+    transform: translateY(10vh);
     color: var(--secondary);
     font-weight: 1000;
+    font-size: 3vw;
+}
+
+.left-login-image{
+    width: 40vw;
 }
 
 .right-login{
